@@ -30,7 +30,7 @@ long long factorial(long x)
 					20! =				02,432,902,008,176,640,000
 					MAX[long long] =	09,223,372,036,854,775,807
 					21! =				51,090,942,171,709,440,000
-			Obviously, we only able to calcuate the factorial of 20 instead of 21 which will cause overflow.
+		obviously, we only able to calcuate the factorial of 20 instead of 21 which will cause overflow, so this pre-error expection is necessary;
 
 			By this limitaion, we can't give the approximated function of sin(x) which has a smaller precision like 0.01;
 		How to solve:
